@@ -1,0 +1,79 @@
+
+.titleTable
+{
+    padding: 30px;
+}
+.styled-table, thead
+{ 
+    background-color: #980081; color: #ffffff; text-align: middle;
+}
+
+.tbody,td{
+    border: solid #980081 ; color: black; text-align: middle;
+}
+.table{
+    margin:30px;
+}
+.buttonCreate{
+    background-color: green;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+}
+.positionButton{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    margin-right: 250px;
+}
+.buttonDelete{
+    background-color: red;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+}
+.buttonEdit{
+    background-color: blue;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+}
+.buttonSale{
+    background-color: rgb(228, 228, 165);
+    padding:5px;
+    border-radius: 10px;
+}
+.inputEdit{
+    margin:50px 200px 200px 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid #980081 ;
+}
+.input-margin {
+    margin: 5px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputSend{
+    margin:20px;
+}
+.form-control{
+    border:solid #980081;
+    border-width: 1px;
+    padding: 5px;
+}
+.input-create{
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
