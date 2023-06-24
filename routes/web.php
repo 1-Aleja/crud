@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/login', 'App\Http\Controllers\LoginController@viewLogin')->name('login')->middleware('guest');
+Route::get('/', 'App\Http\Controllers\LoginController@viewLogin')->name('login')->middleware('guest');
 Route::post('/login', 'App\Http\Controllers\LoginController@loginUser')->name('loginUser');
 Route::post('/logout', 'App\Http\Controllers\LoginController@logoutUser')->name('logoutUser')->middleware('auth');
 Route::get('/register', 'App\Http\Controllers\RegisterUserController@viewRegisterUser')->name('viewRegisterUser');

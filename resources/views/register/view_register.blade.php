@@ -38,7 +38,7 @@
             <button type="submit" class="btn btn-primary">Registrarse</button>
         </div>
     </form>
-    <form method="get" action="{{url('/login')}}" >
+    <form method="get" action="{{url('/')}}" >
         <div>
             <button type="submit" class="btn btn-primary">Ingresar</button>
         </div>

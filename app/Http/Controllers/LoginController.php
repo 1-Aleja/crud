@@ -16,13 +16,13 @@ class LoginController extends Controller
             $request->session()->regenerate();
             return redirect('/data-grid');
         }
-        return redirect('/login');
+        return redirect('/');
     }
     public function logoutUser(Request $request){
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect('/login');
+        return redirect('/');
 
     }
 }
