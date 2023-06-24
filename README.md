@@ -4,11 +4,11 @@
 
 Clonar el repositorio
 
-    git clone https://key@github.com/onoffdevops/gps.git
+git clone https://key@github.com/onoffdevops/gps.git
 
 Cambiar al directorio del proyecto
 
-    cd gps
+    cd Crud
 
 Instalar las dependencias usando composer
 
@@ -35,7 +35,7 @@ Ejecutar migraciones de base de datos
 
 Crear enlace simbólico para acceder a los archivos de la carpeta storage desde public
 
-	php artisan storage:link
+-Realizar inserts
 
 Iniciar el servidor de desarrollo local.
 
