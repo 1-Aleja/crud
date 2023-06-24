@@ -4,7 +4,7 @@
 
 Clonar el repositorio
 
-git clone https://key@github.com/onoffdevops/gps.git
+git clone https://github.com/1-Aleja/crud.git
 
 Cambiar al directorio del proyecto
 
